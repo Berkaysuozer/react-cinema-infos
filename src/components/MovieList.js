@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './MovieList.css';
 const MovieList = (props) => {
 	return (
 		<div className="row">
@@ -9,7 +9,7 @@ const MovieList = (props) => {
 						<img className="card-img-top img-fluid" alt="foto" src={m.imageURL}></img>
 						<div className="card-body">
 							<h5 className="card-title">{m.name}</h5>
-							<p className="card-text">{m.overview}</p>
+							<p className="card-text ">{m.overview}</p>
 							<div className="d-flex justify-content-between align-items-center">
 								<button
 									type="button"
