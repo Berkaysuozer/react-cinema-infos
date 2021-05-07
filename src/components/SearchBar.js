@@ -1,4 +1,5 @@
 import React from 'react';
+import './SearchBar.css';
 
 class SearchBar extends React.Component {
 
@@ -9,19 +10,37 @@ class SearchBar extends React.Component {
 
 	render() {
 		return (
-			<form onSubmit={this.preventSubmit}>
-				<div className="form-row mt-1 mb-5">
-					<div className="col-12">
-						<input
+	 <React.Fragment>
+			<div className='navbar'>
+			
+			
+			<h5>BerkaySuozer</h5>
+			<ul>
+					
+					<li>
+					<form onSubmit={this.preventSubmit}>
+					<input
 							onChange={this.props.searchProps}
 							
 							type="text"
 							className="form-control"
 							placeholder="Search for a movie"
 						></input>
-					</div>
-				</div>
-			</form>
+							</form>
+
+					</li>
+					
+					
+					<li>FAVORİLER</li>
+				</ul>
+					
+						
+		
+					
+				
+		
+		</div>
+	  </React.Fragment>
 		);
 	}
 }

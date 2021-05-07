@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+.navbar{
+ background-color: #f1f3f5;
+  position:fixed;
+ top: 0;
+ width: 100%;
+
+}
+.navbar h5 {
+    display:flex;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    font-size:25px;
+    color:rgba(240, 0, 0, 0.9);
+
+}
+.navbar ul {
+    display:flex;
+}
+.navbar ul li {
+    margin  : 0px 10px;
+    list-style-type: none;
+    float:left;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(240, 0, 0, 0.9);
+    font-weight: 600;
+}
+
+.navbar ul li :nth-child(){
+margin-right:10px;
+float:left;
+}
